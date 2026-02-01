@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Gardener - Gardening Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+     <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark text-light px-0 py-2">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <span class="fa fa-phone-alt me-2"></span>
+                    <span>+012 345 6789</span>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <span class="far fa-envelope me-2"></span>
+                    <span>info@example.com</span>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center mx-n2">
+                    <span>Follow Us:</span>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h1 class="m-0">Gardener</h1>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link">Services</a>
+                <a href="project.html" class="nav-item nav-link">Projects</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu bg-light m-0">
+                        <a href="feature.html" class="dropdown-item active">Features</a>
+                        <a href="quote.html" class="dropdown-item">Free Quote</a>
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="" class="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center py-5">
+            <h1 class="display-3 text-white mb-4 animated slideInDown">Pipes</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item active"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Products</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar with Buttons -->
+            <div class="col-lg-3 col-md-4 col-sm-12 sidebar">
+
+                <a href="pipes.html">
+                    <button id="pipesBtn" class="custom-btn w-100 mb-3">
+                        <i class="fa-solid fa-chevron-right" style="margin-right: 30px;"></i> Pipes
+                    </button>
+                </a>
+                
+                <a href="flanges.html">
+                    <button id="flangesBtn" class="custom-btn w-100 mb-3">
+                        <i class="fa-solid fa-chevron-right" style="margin-right: 30px;"></i> Flanges
+                    </button>
+                </a>
+                
+                <a href="fittings.html">
+                    <button id="buttweldBtn" class="custom-btn w-100 mb-3">
+                        <i class="fa-solid fa-chevron-right" style="margin-right: 30px;"></i> Buttweld Fittings
+                    </button>
+                </a>
+                
+                <a href="fordge-fittings.html">
+                    <button id="forgedFittingsBtn" class="custom-btn w-100 mb-3">
+                        <i class="fa-solid fa-chevron-right" style="margin-right: 30px;"></i> Forged Fittings
+                    </button>
+                </a>
+                
+                <a href="sheets.html">
+                    <button id="sheetsBtn" class="custom-btn w-100 mb-3">
+                        <i class="fa-solid fa-chevron-right" style="margin-right: 30px;"></i> Sheet Plates
+                    </button>
+                </a>
+                
+                <a href="roundbars.html">
+                    <button id="roundBarsBtn" class="custom-btn w-100 mb-3">
+                        <i class="fa-solid fa-chevron-right" style="margin-right: 30px;"></i> Round Bars
+                    </button>
+                </a>
+                
+                <a href="fastners.html">
+                    <button id="fastenersBtn" class="custom-btn w-100 mb-3">
+                        <i class="fa-solid fa-chevron-right" style="margin-right: 30px;"></i> Fasteners
+                    </button>
+                </a>  
+              
+             
+                
+            </div>
+    
+            <!-- Content Section (Details + Image) -->
+            <div class="col-lg-8 col-md-8 col-sm-12 content-section">
+                <div id="pipesDetails" class="detail-section row">
+                    <div class="col-12">
+                        <h3 class="header-4 team-title">Pipes Specifications</h3>
+                        <p class="text-align-imp">We supply high-quality stainless steel pipes and tubes engineered to international standards. Our range includes welded pipes and tubes available in various dimensions and grades, suitable for industries like power, engineering, and construction. We ensure competitive pricing and timely delivery.</p>
+                    </div>
+                    
+                <!-- Add More Product  -->
+                        <div class="col-md-9 col-12">
+                            <h3 class="header-4 team-title">Pipes & Tubes</h3>
+                         
+                            <table class="table-data">
+                                <tr>
+                                    <th class="unique">Stainless Steel</th>
+                                    <td>ASTM A479, A182 - 202, 303, 304, 304L, 304H, 316, 316L, 316Ti, 309, 310, 310S, 321, 321H, 317, 347, 347H, 904L</td>
+                                </tr>
+                                <tr>
+                                    <th class="unique">Duplex & Super Duplex</th>
+                                    <td>F 44, F 45, F51, F 53, F 55, F 60, F 61</td>
+                                </tr>
+                                <tr>
+                                    <th class="unique">Carbon Steel</th>
+                                    <td>ASTM A105, A350 LF2, A106 Gr A, B, C, A333 Gr 6, 3</td>
+                                </tr>
+                                <tr>
+                                    <th class="unique">Alloy Steel</th>
+                                    <td>ASTM A182 F5, F9, F11, F12, F21, F22, F91, A335 Gr P1, P11, P12, P5, P9</td>
+                                </tr>
+                                <tr>
+                                    <th class="unique">Nickel Alloys</th>
+                                    <td>
+                                        Nickel 200 (UNS No. N02200), Nickel 201 (UNS No. N02201), Monel 400 (UNS No. N04400), Monel 500 (UNS No. N05500), Inconel 800 (UNS No. N08800), Inconel 825 (UNS No. N08825), Inconel 600 (UNS No. N06600), Inconel 625 (UNS No. N06625), Inconel 601 (UNS No. N06601), Hastelloy C 276 (UNS No. N10276), Alloy 20 (UNS No. N08020)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="unique">Copper Alloy Steel</th>
+                                    <td>
+                                        C 70600 (Cu-Ni 90/10), C 71500 (Cu-Ni 70/30), UNS No. C 10100, 10200, 10300, 10800, 12000, 12200
+                                    </td>
+                                </tr>
+                            </table>
+                        
+                        </div>
+                        <div class="col-md-3 col-12 text-center">
+                        <div class="image-wrapper">
+                            <img src="./img/pipe-tubes.jpg" alt="Pipes" class="img-fluid w-100">
+                        </div>
+                    </div> 
+                <!-- Add More Product End  -->
+            
+
+         <!-- Add More Product  -->
+                  <div class="col-md-9 col-12">
+                    <h3 class="header-4 team-title">Tube</h3>
+                    <table class="table-data">
+                        <tr>
+                            <th class="unique">Size</th>
+                            <td>1/2"NB to 24"NB<br>SCH .10, 40, 80, 160</td>
+                        </tr>
+                        <tr>
+                            <th class="unique">Length</th>
+                            <td>2-4 meters, 4-6 meters, 6-8 meters, 0-2 meters</td>
+                        </tr>
+                        <tr>
+                            <th class="unique">Type</th>
+                            <td>Seamless, Welded, U-Tubes, Condenser & Heater Tubes, Coils</td>
+                        </tr>
+                        <tr>
+                            <th class="unique">Brand</th>
+                            <td>Manufacturing & Imported Stock also available</td>
+                        </tr>
+                        <tr>
+                            <th class="unique">Hollow Sections</th>
+                            <td>Circular, Square, Rectangular, Elliptical</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-3 col-12 text-center">
+                <div class="image-wrapper">
+                    <img src="./img/tube.webp" alt="Pipes" class="img-fluid w-100">
+                </div>
+            </div>
+        <!-- Add More Product End  -->
+
+        <!-- Add More Product  -->
+        <div class="col-md-9 col-12">
+            <h3 class="header-4 team-title">Round Pipe</h3>
+            <table class="table-data">
+                <tr>
+                    <th class="unique">Size</th>
+                    <td>1/2 inch, 3/4 inch, 1 inch, 2 inch, 3 inch</td>
+                </tr>
+                <tr>
+                    <th class="unique">Unit Pipe Length</th>
+                    <td>Customized, 3 meter, 18 meter, 6 meter, 9 meter</td>
+                </tr>
+                <tr>
+                    <th class="unique">Outer Diameter</th>
+                    <td>Customised</td>
+                </tr>
+                <tr>
+                    <th class="unique">Thickness</th>
+                    <td>Customised</td>
+                </tr>
+                <tr>
+                    <th class="unique">Certification</th>
+                    <td>BV, ISO, IBR, ROHS</td>
+                </tr>
+                <tr>
+                    <th class="unique">Steel Grade</th>
+                    <td>Customised</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-3 col-12 text-center">
+        <div class="image-wrapper">
+            <img src="./img/ms-round-pipe.jpg" alt="Pipes" class="img-fluid w-100">
+        </div>
+    </div>
+      <!-- Add More Product End  -->
+
+        <!-- Add More Product  -->
+        <div class="col-md-9 col-12">
+            <h3 class="header-4 team-title">Square Pipes</h3>
+            <table class="table-data">
+                <tr>
+                    <th class="unique">Size</th>
+                    <td>2 inch, 4 inch, 1 inch, 3 inch, 1/2 inch, >4</td>
+                </tr>
+                <tr>
+                    <th class="unique">Unit Length</th>
+                    <td>12 m, 6 m, 18 m, 24m</td>
+                </tr>
+                <tr>
+                    <th class="unique">Surface Finish</th>
+                    <td>Mill Finished, Finished Polished, Brushed, Anodized</td>
+                </tr>
+                <tr>
+                    <th class="unique">Color</th>
+                    <td>Blue, Green, Black, Red</td>
+                </tr>
+                <tr>
+                    <th class="unique">Material Grade</th>
+                    <td>All standard sizes</td>
+                </tr>
+                <tr>
+                    <th class="unique">Technique</th>
+                    <td>ERW, Hot Rolled, Cold Rolled</td>
+                </tr>
+                <tr>
+                    <th class="unique">Pipe Fluid</th>
+                    <td>Chemical, Water, Gas</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-3 col-12 text-center">
+        <div class="image-wrapper">
+            <img src="./img/square-pipe.jpg" alt="Pipes" class="img-fluid w-100">
+        </div>
+    </div>
+      <!-- Add More Product End  -->
+
+
+
+     
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Our Office</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Services</h4>
+                    <a class="btn btn-link" href="">Landscaping</a>
+                    <a class="btn btn-link" href="">Pruning plants</a>
+                    <a class="btn btn-link" href="">Urban Gardening</a>
+                    <a class="btn btn-link" href="">Garden Maintenance</a>
+                    <a class="btn btn-link" href="">Green Technology</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Newsletter</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative w-100">
+                        <input class="form-control bg-light border-light w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
