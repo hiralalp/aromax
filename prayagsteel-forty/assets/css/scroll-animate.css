@@ -1,0 +1,38 @@
+/* Scroll-triggered Animations */
+.sa-hidden {
+	opacity: 0;
+	transition: opacity 0.7s cubic-bezier(0.4, 0, 0.2, 1), transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sa-fade-up {
+	transform: translateY(50px);
+}
+
+.sa-fade-left {
+	transform: translateX(-50px);
+}
+
+.sa-fade-right {
+	transform: translateX(50px);
+}
+
+.sa-scale-in {
+	transform: scale(0.92);
+}
+
+.sa-visible {
+	opacity: 1 !important;
+	transform: translate(0, 0) scale(1) !important;
+}
+
+/* Staggered table rows */
+.sa-table-row {
+	opacity: 0;
+	transform: translateY(15px);
+	transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.sa-table-row.sa-visible {
+	opacity: 1;
+	transform: translateY(0);
+}
