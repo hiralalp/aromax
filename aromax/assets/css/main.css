@@ -3139,6 +3139,13 @@ input, select, textarea {
 			padding: 0 1.5em;
 		}
 
+			#header .logo .logo-img {
+				height: 2.5em;
+				width: auto;
+				vertical-align: middle;
+				margin-right: 0.5em;
+			}
+
 			#header .logo strong {
 				-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
